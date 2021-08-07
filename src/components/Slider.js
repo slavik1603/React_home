@@ -17,28 +17,6 @@ export default function Slider() {
                     <p>village Konotopy</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={family}
-                    alt="Kanykuly-Konotopy"
-                />
-                <Carousel.Caption>
-                    <h3>Kanykuly z Bogom</h3>
-                    <p>village Konotopy</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={family}
-                    alt="Kanykuly-Konotopy"
-                />
-                <Carousel.Caption>
-                    <h3>Kanykuly z Bogom</h3>
-                    <p>village Konotopy</p>
-                </Carousel.Caption>
-            </Carousel.Item>
         </Carousel>
     )
 }
