@@ -1,14 +1,24 @@
-import { makeStyles } from '@material-ui/core'
 import React from 'react'
 import { Container, Row, Card } from 'react-bootstrap'
-import OrestLOGO from '../assets/OrestLOGO.jpg'
+import { makeStyles } from '@material-ui/core'
+import OrestBiograph from '../assets/OrestBiograph.jpg'
 
 const useStyles = makeStyles(() => ({
     cardImg: {
+        width: 'auto',
+    },
+    cardFoto: {
         width: '100%',
     },
-    cardInfo: {},
-    cardContacts: {},
+    cardAbout: {
+        backgroundColor: 'aqua',
+    },
+    cardInfo: {
+        color: 'red',
+    },
+    cardContacts: {
+        color: 'blue',
+    },
 }))
 
 export const About = () => {
@@ -17,12 +27,22 @@ export const About = () => {
         <>
             <Container>
                 <Row>
-                    <Card.Img className={classes.cardImg}>
-                        <img src={OrestLOGO} />
-                    </Card.Img>
-                    <Card>
+                    <Card className={classes.cardFoto}>
+                        <Card.Img
+                            variant="top"
+                            src={OrestBiograph}
+                            className={classes.cardImg}
+                        />
+                    </Card>
+                    <Card className={classes.cardAbout}>
                         <Card.Info className={classes.cardInfo}>
-                            о.Орест
+                            о. Орест Рубель, 1959 р.н., священник УГКЦ, служить
+                            на парафії с. Ульвівок, Теляж, Конотопи Сокальського
+                            деканату, Сокальсько-Жовківської Єпархії. Священичі
+                            свячення прийняв з рук бл.п. владики Юліана
+                            Вороновського 29 грудня 1991 р. Одружений, має
+                            четверо дітей. Проживає на парафії села Конотопи.
+                            Автор 16 книг.
                         </Card.Info>
                         <Card.Contacts className={classes.cardContacts}>
                             Контакти

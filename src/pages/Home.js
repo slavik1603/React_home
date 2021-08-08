@@ -3,7 +3,7 @@ import Slider from '../components/Slider'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import Family from '../assets/Family.jpg'
 import bookNebOhorona from '../assets/bookNebOhorona.jpg'
-import OrestBiograph from '../assets/OrestBiograph.jpg'
+import OrestLOGO from '../assets/OrestLOGO.jpg'
 import dolunaSmerti from '../assets/dolunaSmerti.png'
 import { Link } from 'react-router-dom'
 
@@ -32,9 +32,10 @@ export const Home = () => (
                     >
                         <Card.Img
                             variant="top"
-                            src={OrestBiograph}
+                            src={OrestLOGO}
                             style={{
-                                width: '250px',
+                                width: '200px',
+                                height: '200px',
                                 textAlign: 'center',
                                 margin: '5%',
                             }}
