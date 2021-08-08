@@ -1,3 +1,3 @@
 import React from 'react'
 
-export const About = () => <h1>Page About</h1>
+export const About = () => <h1>H</h1>
