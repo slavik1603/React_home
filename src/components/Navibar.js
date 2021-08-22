@@ -35,7 +35,7 @@ export default function NaviBar() {
                                     <Link to="/">Home</Link>
                                 </Nav.Link>
                                 <Nav.Link>
-                                    <Link to="/">Category</Link>
+                                    <Link to="/category">Category</Link>
                                 </Nav.Link>
                                 <Nav.Link>
                                     <Link to="/about">About</Link>
